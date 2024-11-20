@@ -28,28 +28,28 @@ Made by me in an afternoon using [Fluent UI 9](https://react.fluentui.dev/)'s [C
 
 ```javascript
 sessionStorage.setItem("slides", JSON.stringify(
-	[
-		{
-			"url": "image.png",
-			"mode": "image",
-            "end": "2024/11/20"
-		},
-		{
-			"url": "video url.mp4",
-			"mode": "video",
-            "videotype": "video/mp4",
-            "end": "2025/01/01T09:00:00Z"
-		},
-		{
-			"url": "someurl.com",
-			"mode": "iframe"
-		},
-		{
-			"url": "background.png",
-			"mode": "image+card",
-            "title": "Title",
-            "body": "Body",
-            "link": "https://aka.ms/rooms" //gens a QR code
-		},
-	]));
+[
+	{
+		"url": "image.png",
+		"mode": "image",
+		"end": "2024/11/20"
+	},
+	{
+		"url": "video url.mp4",
+		"mode": "video",
+		"videotype": "video/mp4",
+		"end": "2025/01/01T09:00:00Z"
+	},
+	{
+		"url": "someurl.com",
+		"mode": "iframe"
+	},
+	{
+		"url": "background.png",
+		"mode": "image+card",
+		"title": "Title",
+		"body": "Body",
+		"link": "https://aka.ms/rooms" //gens a QR code
+	},
+]));
 ```
