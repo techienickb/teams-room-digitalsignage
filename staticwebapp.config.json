@@ -1,0 +1,15 @@
+{
+    "navigationFallback": {
+        "rewrite": "index.html",
+        "exclude": [
+            "/static/images/*.{png,jpg,gif}",
+            "/static/css/*"
+        ]
+    },
+    "platform": {
+        "apiRuntime": "node:20"
+    },
+    "globalHeaders": {
+        "Permissions-Policy": "autoplay=()"
+    }
+}
