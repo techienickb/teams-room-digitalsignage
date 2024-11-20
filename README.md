@@ -26,6 +26,8 @@ Made by me in an afternoon using [Fluent UI 9](https://react.fluentui.dev/)'s [C
 
 ## Reference Script
 
+slides.js
+
 ```javascript
 sessionStorage.setItem("slides", JSON.stringify(
 [
