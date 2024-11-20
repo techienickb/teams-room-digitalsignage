@@ -21,7 +21,7 @@ Made by me in an afternoon
 
 ## Reference Script
 
-```json
+```javascript
 sessionStorage.setItem("slides", JSON.stringify(
 	[
 		{
