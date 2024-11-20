@@ -2,7 +2,12 @@
 
 Provided as is with no support.
 
-Made by me in an afternoon
+Made by me in an afternoon using [Fluent UI 9](https://react.fluentui.dev/)'s [Carousel](https://react.fluentui.dev/?path=/docs/components-carousel--docs)
+
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff)](https://www.typescriptlang.org/) [![React](https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB)](https://react.dev/)
+[![Fluent UI 9](https://img.shields.io/badge/Fluent_UI-v9-green?labelColor=gray&color=green&link=https%3A%2F%2Freact.fluentui.dev%2F)](https://react.fluentui.dev/)
+
+
 
 ## Quick start
 
