@@ -138,7 +138,7 @@ export const Autoplay = () => {
     
     return (
         <div className={classes.container}>
-            <Carousel motion="fade" groupSize={1} circular announcement={getAnnouncement}>
+            {images?.length > 0 && <Carousel motion="fade" groupSize={1} circular announcement={getAnnouncement}>
                 <CarouselSlider>
                     {images?.map((imageSrc, index) => (
                         <BannerCard
@@ -161,7 +161,7 @@ export const Autoplay = () => {
                         )}
                     </CarouselNav>
                 </CarouselNavContainer>
-            </Carousel>
+            </Carousel>}
         </div>
     );
 };
